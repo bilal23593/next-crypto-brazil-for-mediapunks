@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Testimonials */
+.testimonial-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.testimonial-item img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+/* Background */
+.section-background {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+/* Reviews */
+.review-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* CTA Button (Join Now) */
+.cta-btn-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(45deg, #ffcc00, #ff9900); /* Eye-catching gradient */
+    color: white;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    animation: pulse 1.5s infinite;
+    text-decoration: none;
+}
+.cta-btn-fixed:hover {
+    background: linear-gradient(45deg, #ff9900, #e60000);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Brazil-themed colors */
+.background-brazil {
+    background-color: #ffcc00; /* Brazilian yellow */
+    color: #006400; /* Brazilian green */
+}
+
+/* Hero Image */
+.crypto-image {
+    width: 70%;
+    height: 50vh;
+    object-fit: cover;
+    background-color: #f0f0f0;
+}
+.text-green {
+    color: green;
+  }
