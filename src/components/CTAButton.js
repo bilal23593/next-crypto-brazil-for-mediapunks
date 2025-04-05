@@ -9,7 +9,7 @@ export default function CTAButton() {
   }, []);
 
   return (
-    <a className="cta-btn-fixed" href={dynamicUrl} target="_blank">
+    <a className="cta-btn-fixed" href={dynamicUrl}>
       🚀 Junte-se Agora
     </a>
   );

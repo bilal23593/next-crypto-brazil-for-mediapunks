@@ -4,6 +4,9 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import InvestmentInfo from "@/components/InvestmentInfo";
 import Investors from "@/components/Investors";
+import LiveTradingView from "@/components/LiveTradingView";
+import SuccessStory1 from "@/components/SuccessStory1";
+import SuccessStory2 from "@/components/SuccessStory2";
 import Testimonials from "@/components/Testimonials";
 import Head from "next/head";
 import Script from "next/script";
@@ -12,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cube Cake Studiios | Home</title>
+        <title>Brazil Future | Home</title>
         <meta name="description" content="Created By Cube Cake Team" />
       </Head>
       <Script
@@ -35,6 +38,9 @@ export default function Home() {
 
       <main className="flex items-center text-dark w-full min-h-screen">
         <Hero />
+        <SuccessStory1 />
+        <SuccessStory2 />
+        <LiveTradingView />
         <InvestmentInfo />
         <Investors />
         <Testimonials />

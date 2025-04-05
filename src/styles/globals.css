@@ -1,7 +1,10 @@
+/* Global body styles */
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
 }
+
+/* Section Title */
 .section-title {
     font-size: 2rem;
     font-weight: bold;
@@ -22,7 +25,7 @@ body {
     margin-right: 15px;
 }
 
-/* Background */
+/* Section Background */
 .section-background {
     background-color: #f4f4f4;
     padding: 40px 0;
@@ -81,6 +84,77 @@ body {
     object-fit: cover;
     background-color: #f0f0f0;
 }
+
+/* Text Color */
 .text-green {
     color: green;
-  }
+}
+
+/* Success Story Section */
+#success-story {
+    background-color: #f9f9f9; /* Light background color for the success story section */
+    padding: 50px 0;
+}
+
+#success-story h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#success-story h3 {
+    font-size: 1.8rem;
+    color: #ffcc00; /* Brazilian yellow for emphasis */
+    margin-bottom: 20px;
+}
+
+#success-story p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#success-story .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#success-story .col-lg-6 {
+    flex: 0 0 48%; /* Adjust for balance in layout */
+    max-width: 48%;
+}
+
+#success-story img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#success-story .col-lg-6 p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+#success-story .col-lg-6 h2, #success-story .col-lg-6 h3 {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    #success-story .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #success-story .col-lg-6 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #success-story img {
+        margin-top: 20px;
+    }
+}
