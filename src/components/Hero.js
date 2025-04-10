@@ -15,11 +15,11 @@ export default function Hero() {
           mesmo. Não espere mais!
         </p>
       </div>
-      <img
+      {/* <img
         src="/images/bitcoin-cryptocurrency-brazil-flag-golden.jpg"
         alt="Happy Brazilian People"
         className="crypto-image"
-      />
+      /> */}
     </section>
   );
 }
