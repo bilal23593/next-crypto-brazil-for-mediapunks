@@ -6,13 +6,22 @@ export default function SuccessStory1() {
     <section id="success-story" className="bg-light py-5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2 className="display-4">
               Os Primeiros Dias do Bitcoin no Brasil
             </h2>
-            <h3 className="mb-4">
+            <h3 className="mb-2">
               De Professora a Influenciadora de Criptomoedas – Rachel Siegel
             </h3>
+            {/* Image visible only on small screens */}
+            <div className="mb-4">
+              <Image
+                src={RachelSiegelImage}
+                alt="Rachel Siegel"
+                className="img-fluid w-100"
+              />
+            </div>
+
             <p className="lead">
               O caminho de Rachel Siegel para a fama no mundo cripto é um
               clássico exemplo de como pequenos passos podem levar a grandes
@@ -40,13 +49,6 @@ export default function SuccessStory1() {
               em ganhos, Rachel provou que, mesmo com um começo pequeno, é
               possível alcançar um grande sucesso com persistência.
             </p>
-          </div>
-          <div className="col-lg-6">
-            <Image
-              src={RachelSiegelImage}
-              alt="CubeCake"
-              style={{ height: "600px" }}
-            ></Image>
           </div>
         </div>
       </div>

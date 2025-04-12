@@ -2,6 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
+
 }
 
 /* Section Title */
@@ -71,10 +72,17 @@ body {
     100% { transform: scale(1); }
 }
 
+@media (max-width: 1250px) {
+    .cover-wrapper {
+      display: none;
+    }
+  }
 /* Brazil-themed colors */
 .background-brazil {
     background-color: #ffcc00; /* Brazilian yellow */
     color: #006400; /* Brazilian green */
+    background-size: cover;
+    background-position: center;
 }
 
 /* Hero Image */

@@ -1,6 +1,8 @@
+import CoverImage from "../../public/images/profile/CoverPhoto.jpeg";
+import Image from "next/image";
 export default function Hero() {
   return (
-    <section className="text-center py-5 background-brazil">
+    <section className="text-center py-5 background-brazil ">
       <div className="container">
         <h1 className="section-title text-green">
           O que o futuro reserva para o Brasil!
@@ -15,11 +17,14 @@ export default function Hero() {
           mesmo. Não espere mais!
         </p>
       </div>
-      {/* <img
-        src="/images/bitcoin-cryptocurrency-brazil-flag-golden.jpg"
-        alt="Happy Brazilian People"
-        className="crypto-image"
-      /> */}
+
+      <div className="cover-wrapper">
+        <Image
+          src={CoverImage}
+          alt="CubeCake"
+          className="w-full h-auto object-cover"
+        />
+      </div>
     </section>
   );
 }

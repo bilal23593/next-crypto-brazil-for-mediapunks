@@ -6,22 +6,22 @@ export default function SuccessStory2() {
     <section id="success-story" className="bg-light py-5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
-            <Image
-              src={FernandoMottaImage}
-              alt="CubeCake"
-              style={{ height: "600px" }}
-            />
-          </div>
-          <div className="col-lg-6">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2 className="display-4">
               Empreendedores Brasileiros que Construíram Negócios em Torno do
               Bitcoin
             </h2>
-            <h3 className="mb-4">
+            <h3 className="mb-2">
               Fernando Motta, de São Paulo: De um entusiasta de criptomoedas a
               um multibilionário
             </h3>
+            <div className="mb-4">
+              <Image
+                src={FernandoMottaImage}
+                alt="Fernando Motta"
+                className="img-fluid w-100"
+              />
+            </div>
             <p className="lead">
               Fernando Motta, de São Paulo, foi um dos primeiros a adotar o
               Bitcoin. Ele descobriu a criptomoeda pela primeira vez em 2012,
