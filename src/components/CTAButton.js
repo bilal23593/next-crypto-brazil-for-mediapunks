@@ -5,7 +5,7 @@ export default function CTAButton() {
 
   useEffect(() => {
     const params = window.location.search.substring(1); // Get query params
-    setDynamicUrl(`//143.198.219.40/?_lp=1&${params}`);
+    setDynamicUrl(`//evologyhub.com/?_lp=1&${params}`);
   }, []);
 
   return (
