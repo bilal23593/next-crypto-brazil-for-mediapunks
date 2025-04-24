@@ -1,4 +1,5 @@
 import CallToAction from "@/components/CallToAction";
+import ConsentPopup from "@/components/ConsentPopup";
 import CTAButton from "@/components/CTAButton";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -48,6 +49,7 @@ export default function Home() {
         <CallToAction />
         <Footer />
       </main>
+      <ConsentPopup />
     </>
   );
 }
